@@ -1,6 +1,4 @@
 # 3. Custom Validators
-
-
 from pydantic import BaseModel, EmailStr, validator, ValidationError
 from typing import List
 
