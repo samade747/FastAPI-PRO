@@ -5,8 +5,8 @@ from uuid import uuid4
 
 # Initialize the FastAPI app
 app = FastAPI(
-    title="DACA Chatbot API",
-    description="A FastAPI-based API for a chatbot in the DACA tutorial series",
+    title="Samad Chatbot API",
+    description="A FastAPI-based API for a chatbot in the samad tutorial series",
     version="0.1.0",
 )
 
@@ -31,7 +31,7 @@ class Response(BaseModel):
 # Root endpoint
 @app.get("/")
 async def root():
-    return {"message": "Welcome to the DACA Chatbot API! Access /docs for the API documentation."}
+    return {"message": "Welcome to the samad Chatbot API! Access /docs for the API documentation."}
 
 # GET endpoint with query parameters
 @app.get("/users/{user_id}")
