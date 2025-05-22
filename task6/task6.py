@@ -13,7 +13,7 @@ tasks_db = {}
 
 # UserCreate model
 class UserCreate(BaseModel):
-    username: constr(min_length=3, max_length=20)  # Username constraint
+    username: constr(min_length=3, max_length=20)  # type: ignore # Username constraint
     email: EmailStr  # Valid email
 
 
