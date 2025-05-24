@@ -4,6 +4,7 @@
 # Import necessary classes and functions from FastAPI
 from fastapi import FastAPI, Depends, Query
 
+
 # Import Annotated from typing to use for dependency injection with type hints
 from typing import Annotated
 
